@@ -6,7 +6,7 @@ import Center from "../components/Center"
 import Player from "../components/Player"
 import { getSession } from 'next-auth/react'
 import { useRecoilState, useRecoilValue } from 'recoil'
-
+ 
 function Home( session ) {
   // const playlistName = useRecoilValue(playlistName)
   return (
@@ -37,4 +37,4 @@ export async function getServerSideProps(contex) {
       session
     }
   }
-}
+}   
