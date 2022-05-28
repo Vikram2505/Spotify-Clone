@@ -16,7 +16,7 @@ const colors = [
   'from-yellow-500',
   'from-pink-500',
   'from-purple-500',
-]
+] 
 
 function Center() {
   const spotifyApi = useSpotify()
